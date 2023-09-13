@@ -1,0 +1,49 @@
+.Header{
+    background-color: aqua;
+}
+
+.Content{
+    border-style: solid;
+    border-color: red;
+    border-width: 20px;
+    font-size: large;
+    
+}
+
+.Center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+
+.Content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.Content li{
+    display: inline;
+    font-size: 25px;
+    padding-right: 15px;
+}
+/* runs the nav bar for the hyperlinks to be centered */
+                #menu-outer {
+                    height: 70px;
+                    background-color: rgb(222, 100, 100);
+                }
+
+                .table {
+                    display: table;   /* Allow the centering to work */
+                    margin: 0 auto;
+                }
+
+                ul#horizontal-list {
+                    min-width: 696px;
+                    list-style: none;
+                    padding-top: 20px;
+                    }
+                    ul#horizontal-list li {
+                        display: inline;
+                    }
